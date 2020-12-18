@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block main %}
+
+<div>
+    <h4>Вы вышли из системы!</h4>
+</div>
+<div>
+   <a class="btn btn-dark" href="{% url 'guest' %}">На главную</a>
+</div>
+{% endblock %}

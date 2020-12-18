@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block main %}
+
+   <h1>Добро Пожаловать в Music Service!</h1>
+
+   <div id="center__button" class="clearfix colelem">
+       <a class="btn btn-primary" href="{% url 'login' %}">Войти</a>
+       <a class="btn btn-primary" href="{% url 'registration' %}">Регистрация</a>
+   </div>
+
+{% endblock %}
